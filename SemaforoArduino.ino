@@ -1,24 +1,24 @@
-int led = 2;
-int led2 = 3;
-int led3 = 4;
+int ledred = 2;
+int ledgreen = 3;
+int ledblue = 4;
 
 void setup(){
   pinMode(led, OUTPUT);
 }
 
 void loop(){
-  digitalWrite(led, HIGH);
+  digitalWrite(ledred, HIGH);
   delay(1000);
-  digitalWrite(led, LOW);
-  delay(1000);
-
-  digitalWrite(led2, HIGH);
-  delay(1000);
-  digitalWrite(led2, LOW);
+  digitalWrite(ledred, LOW);
   delay(1000);
 
-  digitalWrite(led3, HIGH);
+  digitalWrite(ledgreen, HIGH);
   delay(1000);
-  digitalWrite(led3, LOW);
+  digitalWrite(ledgreen, LOW);
+  delay(1000);
+
+  digitalWrite(ledblue, HIGH);
+  delay(1000);
+  digitalWrite(ledblue, LOW);
   delay(1000);
 }
